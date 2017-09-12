@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.santoshkumarsingh.calculator.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:padding="20dp"
+        android:gravity="right"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        style="@style/Linear_Layout_horizontal">
+
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/seven"
+            android:id="@+id/btn_7"/>
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/eight"
+            android:id="@+id/btn_8"/>
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/nine"
+            android:id="@+id/btn_9"/>
+        <Button
+            style="@style/Operators_Button"
+            android:text="@string/add"
+            android:id="@+id/btn_add"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Linear_Layout_horizontal">
+
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/four"
+            android:id="@+id/btn_4"/>
+
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/five"
+            android:id="@+id/btn_5"/>
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/six"
+            android:id="@+id/btn_6"/>
+        <Button
+            style="@style/Operators_Button"
+            android:text="@string/subs"
+            android:id="@+id/btn_subs"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Linear_Layout_horizontal">
+
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/one"
+            android:id="@+id/btn_1"/>
+
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/two"
+            android:id="@+id/btn_2"/>
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/three"
+            android:id="@+id/btn_3"/>
+        <Button
+            style="@style/Operators_Button"
+            android:text="@string/multi"
+            android:id="@+id/btn_multi"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Linear_Layout_horizontal">
+
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/dec"
+            android:id="@+id/btn_dec"/>
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/zero"
+            android:id="@+id/btn_0"/>
+        <Button
+            style="@style/Numbers_Button"
+            android:text="@string/equal"
+            android:id="@+id/btn_equal"/>
+        <Button
+            style="@style/Operators_Button"
+            android:text="@string/devide"
+            android:id="@+id/btn_devide"/>
+    </LinearLayout>
+
+</LinearLayout>
