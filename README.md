@@ -4,4 +4,4 @@ It is a basic calculator app with shortest and simplest calculation method and y
  
 * Image  
   
-![](snapshots/1.png)
+![](snapshots/1.jpg)
